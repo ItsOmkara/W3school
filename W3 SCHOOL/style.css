@@ -1,0 +1,64 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+header{ 
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    line-height: 50px;
+}
+#logo a img{
+    width: 38.344px;
+    height: 37px;
+    padding: 8px 16px 8px 16px;
+}
+nav a{
+    width: 70.516px;
+    height: 24px;
+    padding: 16px;
+    font-size: 20px;
+    text-decoration: none;
+}
+nav img{
+    height: 8px;
+    width: 8px;
+}
+#search input{
+    height: 20px;
+    width: 110px;
+    padding: 5px 40px 5px 15px;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+#blak img{
+    height: 20px;
+    width: 20px;
+    padding-top: 17px;
+    margin-left: 10px;
+}
+#goal img{
+    height: 20px;
+    width: 20px;
+    padding: 17px;
+    padding-left: 250px;
+}
+#goal a{
+    display: flex;
+    flex-direction: row;
+    font-size: larger;
+    padding-top: 5px;
+    text-decoration: none;
+    line-height: 48px;
+}
+nav a:hover{
+    background-color:rgb(22, 177, 22) ;
+    height: inherit;
+}
+section{
+    width: 100%;
+    height: 500px;
+    background-image: url(Background.gif);
+}
